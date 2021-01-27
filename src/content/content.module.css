@@ -1,0 +1,92 @@
+.topBar {
+  flex: 1;
+  margin-bottom: 4rem;
+}
+.wrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 15px;
+}
+
+.topNav li {
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+.topNav {
+  text-align: center;
+  justify-content: center;
+  background: #f2f2f2;
+  padding: 20px 10px;
+}
+
+.topNav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.topNav li {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 8px;
+}
+
+.dropDown {
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.fontSize {
+  font-size: 32px;
+}
+
+.mainContent {
+  padding-left: 15px;
+}
+
+.session {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sessionContainer {
+  border: 1px solid rgb(230, 230, 230);
+  width: 30%;
+  padding: 0.6rem 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  display: flex;
+}
+
+.sessionInactive {
+  border: 1px dashed rgb(200, 200, 200);
+}
+
+.sessionInactiveCircle {
+  color: rgb(200, 200, 200);
+}
+
+.userSession {
+  margin-left: 0.5rem;
+}
+
+.secondContent {
+  display: flex;
+  justify-content: space-between;
+  width: "100%";
+}
+
+.statisticsWrapper {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
